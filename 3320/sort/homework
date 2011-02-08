@@ -1,0 +1,164 @@
+Making random array of ints sizeof 1000
+Finished writing random values to the array
+
+Now sorting 1000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 1000
+Finished writing random values to the array
+
+Now sorting 1000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 2000
+Finished writing random values to the array
+
+Now sorting 2000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 2000
+Finished writing random values to the array
+
+Now sorting 2000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 4000
+Finished writing random values to the array
+
+Now sorting 4000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 4000
+Finished writing random values to the array
+
+Now sorting 4000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 0.01
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0.01
+
+
+
+
+Making random array of ints sizeof 8000
+Finished writing random values to the array
+
+Now sorting 8000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 8000
+Finished writing random values to the array
+
+Now sorting 8000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 0.06
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0.06
+
+
+
+
+Making random array of ints sizeof 16000
+Finished writing random values to the array
+
+Now sorting 16000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 16000
+Finished writing random values to the array
+
+Now sorting 16000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 0.25
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0.25
+
+
+
+
+Making random array of ints sizeof 32000
+Finished writing random values to the array
+
+Now sorting 32000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0
+
+
+
+
+Making random array of ints sizeof 32000
+Finished writing random values to the array
+
+Now sorting 32000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 1.01
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 1.01
+
+
+
+
+Making random array of ints sizeof 64000
+Finished writing random values to the array
+
+Now sorting 64000 elements using quicksort...
+    Processor time in seconds for QuickSort (not I/O)= 0.01
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 0.01
+
+
+
+
+Making random array of ints sizeof 64000
+Finished writing random values to the array
+
+Now sorting 64000 elements using insertion sort...
+    Processor time in seconds for Insertion Sort (not I/O)= 4.08
+
+Deleted Array, program closing.
+    Total Processor time in seconds (not I/O)= 4.08

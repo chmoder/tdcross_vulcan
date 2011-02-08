@@ -1,0 +1,21 @@
+Making random array of ints sizeof 1000000000
+Finished writing random values to the array
+
+Now sorting 1000000000 elements using insertion sort...
+Command terminated by signal 9
+3597.04user 2.55system 1:00:01elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+976851minor)pagefaults 0swaps
+Making random array of ints sizeof 100000000
+Finished writing random values to the array
+
+Now sorting 100000000 elements using insertion sort...
+Command terminated by signal 2
+4.97user 0.23system 0:05.20elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+97944minor)pagefaults 0swaps
+Making random array of ints sizeof 100000000
+Finished writing random values to the array
+
+Now sorting 100000000 elements using insertion sort...
+Command terminated by signal 9
+3599.03user 0.43system 1:00:00elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+97944minor)pagefaults 0swaps
