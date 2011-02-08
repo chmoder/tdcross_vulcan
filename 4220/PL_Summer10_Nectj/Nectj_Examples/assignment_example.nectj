@@ -1,0 +1,22 @@
+// Integer square root
+
+func sqrt( num )
+	n = 0;
+	if ( eq( num, n ) ) to endit;
+	N = num / 2 + 1; // Starting estimate
+	N1 = ( n + ( num / n )) / 2;
+Again:	if ( ge( n1, n ) ) to endit;
+	n = n1;
+	N1 = ( n + ( num / n )) / 2;
+	if ( true ) to again;
+Endit:	sqrt = n; // sets the return value
+endfunc
+
+func main()
+	write( "Enter a number:" );
+	read( X );
+	S = sqrt( x );
+	write( "The square root is:" );
+	write( s );
+endfunc
+

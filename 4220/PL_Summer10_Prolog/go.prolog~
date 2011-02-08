@@ -1,0 +1,104 @@
+%
+% Program that test calculator output based on milliwats
+%
+% Thomas Cross
+% For CSCI 4220
+%
+%X,Y can also be any combination of numbers with same amt of segments
+%Z will be input so if X + Y == Z then valid guess.  
+%List is a list of segments list up with key => segments(on).
+
+%How do I tell prolog to evaluate each one of these fully instead of asking
+%if add_positives and add_negatives and add_pos_neg is true then...?
+%Disjunction aka ';'.
+
+%is -999 - -999 a valid calculator input?
+%in the case of -999 - 999 would I just not output it or count it becuase its 
+%larger than the screen can display.  So in general, Any answer that would 
+%consume more than 3 LCD's or 24+1 segments is invalid?
+go :-
+        print(' Give me an X:  '), nl,
+	read(XA),
+	integer(XA),
+	XB is XA / 5,
+	print('A='),
+	print(XB), nl,
+	X is round(XB),
+	print('X='),
+	print(X), nl,
+
+        print(' Give me a Y:  '), nl,
+	read(YA),
+	integer(YA),
+	YB is YA / 5,
+	print('B='),
+	print(YB), nl,
+	Y is round(YB),
+	print('Y='),
+	print(Y), nl,
+
+        print(' Give me a Z:  '), nl,
+	read(ZA),
+	integer(ZA),
+	ZB is ZA / 5,
+	print('B='),
+	print(ZB), nl,
+	Z is round(ZB),
+	print('Z='),
+	print(Z), nl,
+
+        print(' What\'s that spell? '), 
+        print( X ), print(' '), 
+        print( Y ), print(' '),
+        print( Z ), print(' '),
+        nl,
+        add_positives(X,Y,Z).
+%        add_negatives(X,Y,Z)
+%        add_pos_neg(X,Y,Z).
+
+
+% X, Y, Z are the number of segments ON.
+add_positives(X,Y,Z) :-
+        Positive_numbers = [6,2,5,5,4,5,6,3,7,6],
+        %Find the positives
+        nth(Xtemp, Positive_numbers, X), 
+        nth(Ytemp, Positive_numbers, Y), 
+        Sum is ( Xtemp - 1 ) + ( Ytemp - 1 ),
+	nth(Sum,Positive_numbers,Z),
+	% XN, YN, and ZN are potential actual numbers
+	XN is Xtemp - 1, YN is Ytemp - 1, 
+        print(XN), print(' + '), print(YN), print(' = '), print(Sum), nl.
+        
+add_negatives(X,Y,Z) :-
+        Negative_numbers = [3,6,6,5,6,7,4,8,7],
+
+        %Find the negatives
+        nth(Xtemp, Negative_numbers, X), 
+        XN is (Xtemp * -1),
+        nth(Ytemp, Negative_numbers, Y), 
+        YN is (Ytemp * -1),
+        Ztemp is XN + YN,
+        Z = Ztemp,
+        print(XN), print(' + '), print(YN), print(' = '), print(Ztemp), nl.
+
+add_pos_neg(X,Y,Z) :-
+        Positive_numbers = [6,2,5,5,4,5,6,3,7,6],
+        Negative_numbers = [3,6,6,5,6,7,4,8,7],
+
+        print(' In add pos neg '), 
+        print( X ), print(' '), 
+        print( Y ), print(' '),
+        print( Z ), print(' '),
+        nl,
+        %Find Positive and Negative
+        nth(Xtemp, Positive_numbers, X),
+        XN is dec(Xtemp),
+        nth(Ytemp, Negative_numbers, Y), 
+        YN is (Ytemp * -1),
+        Ztemp is XN + YN,
+        Z = Ztemp,
+        print(XN), print(' + '), print(YN), print(' = '), print(Ztemp), nl.
+
+%sub(X,Y).
+%mul(X,Y).
+%div(X,Y).
