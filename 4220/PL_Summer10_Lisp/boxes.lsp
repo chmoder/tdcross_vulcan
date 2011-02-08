@@ -1,3 +1,4 @@
+;Thomas Cross
 (defun get3 ()
 (let ((a) (b) (c))
 (setf a (read))
