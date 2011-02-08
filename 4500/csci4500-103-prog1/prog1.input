@@ -1,0 +1,41 @@
+echo Verify we can have up to 16 words in a command...
+echo 1
+echo 1 2
+echo 1 2 3
+echo 1 2 3 4
+echo 1 2 3 4 5
+echo 1 2 3 4 5 6
+echo 1 2 3 4 5 6 7
+echo 1 2 3 4 5 6 7 8
+echo 1 2 3 4 5 6 7 8 9
+echo 1 2 3 4 5 6 7 8 9 10
+echo 1 2 3 4 5 6 7 8 9 10 11
+echo 1 2 3 4 5 6 7 8 9 10 11 12
+echo 1 2 3 4 5 6 7 8 9 10 11 12 13
+echo 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+echo 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+
+echo Verify we can have up to 64 characters in a word...
+echo 123456789012345678901234567890123456789012345678901234567890123
+
+echo Now we try a few command separated by semicolons
+echo one ; echo two ; echo three ; echo four
+
+echo Tabs should also work as separators between words
+echo five	;	echo	six		; echo                 seven
+
+echo Now we try a few other simple commands
+who
+ps
+ls -l
+ls -l /bin
+
+echo Now try some conditional things
+true && echo ok8
+true || echo error9
+false && echo error10
+false || echo ok11
+true && true && true && true && true && echo ok12
+false || false || false || echo ok13
+true || false || false || false || echo error14 ; echo ok15
+true || false || false || false || echo error16 ; echo ok17 || echo error18
