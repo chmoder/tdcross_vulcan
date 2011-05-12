@@ -1,0 +1,5 @@
+This program is a database.  It uses a linked list to manipulate and save
+data.  It uses network sockets to send requests in our fake SQL language.
+And it saves the data to the disk and opens it from disk if DB exists.
+
+The delete function does not work correctly as of now.

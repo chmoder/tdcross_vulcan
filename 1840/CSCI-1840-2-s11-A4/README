@@ -1,0 +1,7 @@
+./wordproc 60 data
+
+This program with the command above will format input test into paragraphs
+of length 60 and save it to a file.  
+
+Next it will automagically make a second file with each word in a list
+sorted lexiographically with its associated word count.
