@@ -1,0 +1,881 @@
+Web Server Log Analyzer v1.0raf
+
+Processed 303 entries from 1 files.
+Processed the folowing logfiles:
+small.log
+
+==============================================================================
+HOSTNAMES
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+     1   0.33   12.36.200.245                                               
+     1   0.33   137.48.177.104                                              
+     1   0.33   137.48.177.130                                              
+     1   0.33   137.48.177.16                                               
+     2   0.66   137.48.177.180                                              
+     5   1.65   137.48.177.185                                              
+     1   0.33   137.48.177.189                                              
+     2   0.66   137.48.177.196                                              
+     1   0.33   137.48.177.198                                              
+     1   0.33   137.48.177.199                                              
+     4   1.32   137.48.177.200                                              
+     2   0.66   137.48.177.201                                              
+     8   2.64   137.48.177.203                                              
+     5   1.65   137.48.177.32                                               
+     1   0.33   137.48.177.95                                               
+     5   1.65   137.48.240.11                                               
+     1   0.33   137.48.240.13                                               
+     1   0.33   137.48.240.136                                              
+     1   0.33   137.48.240.149                                              
+     1   0.33   137.48.240.152                                              
+     2   0.66   137.48.240.171                                              
+     1   0.33   137.48.240.175                                              
+     3   0.99   137.48.240.2                                                
+     1   0.33   137.48.240.22                                               
+     2   0.66   137.48.240.49                                               
+     3   0.99   137.48.69.117                                               
+     1   0.33   137.48.69.216                                               
+     2   0.66   137.48.69.74                                                
+     3   0.99   137.48.72.33                                                
+     1   0.33   137.48.72.59                                                
+     2   0.66   144.sub-75-221-212.myvzw.com                                
+     1   0.33   152-132-11-10.tic.va.gov                                    
+     2   0.66   174-19-72-187.omah.qwest.net                                
+     1   0.33   174-19-73-184.omah.qwest.net                                
+     1   0.33   210.212.179.137                                             
+     1   0.33   38.101.148.126                                              
+     1   0.33   63.sub-75-221-68.myvzw.com                                  
+     1   0.33   64.134.58.41                                                
+     1   0.33   67-3-134-176.omah.qwest.net                                 
+     1   0.33   67-61-12-224.cpe.cableone.net                               
+     1   0.33   67-61-15-148.cpe.cableone.net                               
+     1   0.33   79.142.79.11                                                
+     1   0.33   89.211.58.141                                               
+     3   0.99   97-119-12-47.omah.qwest.net                                 
+     1   0.33   97-119-43-10.omah.qwest.net                                 
+     5   1.65   97-119-44-200.omah.qwest.net                                
+     2   0.66   97-119-89-156.omah.qwest.net                                
+     1   0.33   97-119-89-99.omah.qwest.net                                 
+     2   0.66   97-119-94-202.omah.qwest.net                                
+     2   0.66   adsl-108-69-162-167.dsl.emhril.sbcglobal.net                
+     1   0.33   b3090885.crawl.yahoo.net                                    
+    10   3.30   cpe-76-84-159-217.neb.res.rr.com                            
+     3   0.99   cpe-76-84-160-6.neb.res.rr.com                              
+     1   0.33   crawl-66-249-72-150.googlebot.com                           
+     1   0.33   crawl-66-249-72-185.googlebot.com                           
+     1   0.33   darinwilliams.nebraska.edu                                  
+     2   0.66   dr-foster.w3.org                                            
+     1   0.33   dr-monroe.w3.org                                            
+     3   0.99   dr-wolfe.w3.org                                             
+     3   0.99   h-64-105-33-114.snvacaid.static.covad.net                   
+    17   5.61   h10.163.23.98.static.ip.windstream.net                      
+     1   0.33   h166.163.23.98.static.ip.windstream.net                     
+     3   0.99   h20.163.23.98.static.ip.windstream.net                      
+     4   1.32   h34.163.23.98.static.ip.windstream.net                      
+     1   0.33   h49.163.23.98.static.ip.windstream.net                      
+     2   0.66   ip-dhcp-67-222-198-66.dsl.blr.abbnebraska.com               
+     1   0.33   ip174-70-36-213.om.om.cox.net                               
+     6   1.98   ip174-71-107-172.om.om.cox.net                              
+     1   0.33   ip174-71-84-180.om.om.cox.net                               
+     1   0.33   ip174-71-85-28.om.om.cox.net                                
+     1   0.33   ip174-74-11-245.om.om.cox.net                               
+     2   0.66   ip174-74-113-13.om.om.cox.net                               
+     5   1.65   ip174-74-123-178.om.om.cox.net                              
+     1   0.33   ip174-74-48-99.om.om.cox.net                                
+     1   0.33   ip174-74-71-51.om.om.cox.net                                
+     2   0.66   ip24-252-12-187.om.om.cox.net                               
+     1   0.33   ip24-252-43-200.om.om.cox.net                               
+     1   0.33   ip68-110-22-151.om.om.cox.net                               
+     1   0.33   ip68-13-105-83.om.om.cox.net                                
+     1   0.33   ip68-13-138-49.om.om.cox.net                                
+     1   0.33   ip68-13-144-205.om.om.cox.net                               
+     1   0.33   ip68-13-156-49.om.om.cox.net                                
+     1   0.33   ip68-13-167-7.om.om.cox.net                                 
+     1   0.33   ip68-13-182-105.om.om.cox.net                               
+     7   2.31   ip68-13-183-34.om.om.cox.net                                
+     2   0.66   ip68-13-185-25.om.om.cox.net                                
+     1   0.33   ip68-13-37-63.om.om.cox.net                                 
+     2   0.66   ip68-13-40-28.om.om.cox.net                                 
+     3   0.99   ip68-13-44-189.om.om.cox.net                                
+     3   0.99   ip68-13-72-2.om.om.cox.net                                  
+     1   0.33   ip68-13-75-116.om.om.cox.net                                
+     1   0.33   ip68-13-87-243.om.om.cox.net                                
+     2   0.66   ip68-224-160-32.om.om.cox.net                               
+     5   1.65   ip68-226-60-130.om.om.cox.net                               
+     4   1.32   ip68-99-20-9.om.om.cox.net                                  
+     1   0.33   ip70-187-12-78.om.om.cox.net                                
+     1   0.33   ip72-196-28-70.om.om.cox.net                                
+     1   0.33   ip72-198-192-215.om.om.cox.net                              
+     1   0.33   ip72-198-215-143.om.om.cox.net                              
+     1   0.33   ip72-198-222-95.om.om.cox.net                               
+     1   0.33   ip72-206-99-142.om.om.cox.net                               
+     4   1.32   ip72-213-16-170.om.om.cox.net                               
+     4   1.32   ip98-161-61-251.om.om.cox.net                               
+     1   0.33   ip98-161-62-120.om.om.cox.net                               
+     1   0.33   ip98-161-62-231.om.om.cox.net                               
+     9   2.97   ip98-168-193-160.om.om.cox.net                              
+     1   0.33   ip98-179-30-67.om.om.cox.net                                
+     1   0.33   ip98-179-4-77.om.om.cox.net                                 
+    10   3.30   ip98-179-8-48.om.om.cox.net                                 
+     5   1.65   krustofski.w3.org                                           
+     6   1.98   krusty.w3.org                                               
+     1   0.33   pc010419.cpacs.unomaha.edu                                  
+     1   0.33   pc021801.dsc.unomaha.edu                                    
+     1   0.33   pc022214.dsc.unomaha.edu                                    
+     3   0.99   pki174b-01.ist.unomaha.edu                                  
+     1   0.33   pki176d-01.ist.unomaha.edu                                  
+     5   1.65   pki275b-02.ist.unomaha.edu                                  
+     1   0.33   pki282a-01.ist.unomaha.edu                                  
+     2   0.66   r01-05.opera-mini.net                                       
+     1   0.33   r05-04.opera-mini.net                                       
+     2   0.66   r05-05.opera-mini.net                                       
+     4   1.32   scratchy.w3.org                                             
+     2   0.66   spider88.yandex.ru                                          
+     1   0.33   static-118.41.93.111.tataidc.co.in                          
+     1   0.33   sticker00.yandex.ru                                         
+     1   0.33   w002291pc.unwired.unomaha.edu                               
+     1   0.33   w002574pc.unwired.unomaha.edu                               
+     3   0.99   w002601pc.unwired.unomaha.edu                               
+     2   0.66   w002858pc.unwired.unomaha.edu                               
+     1   0.33   w003273pc.unwired.unomaha.edu                               
+     1   0.33   w003381pc.unwired.unomaha.edu                               
+     1   0.33   w004074pc.unwired.unomaha.edu                               
+     1   0.33   w006465pc.unwired.unomaha.edu                               
+     5   1.65   w006791pc.unwired.unomaha.edu                               
+     1   0.33   w007094pc.unwired.unomaha.edu                               
+     1   0.33   webdefence.cluster-g.websense.net                           
+     1   0.33   wsip-68-96-18-148.om.om.cox.net                             
+     1   0.33   wsip-70-165-107-201.om.om.cox.net                           
+ -----
+   303 entries displayed
+
+
+==============================================================================
+DOMAINS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    69  22.77   N/A (DOTTED QUAD OR OTHER)                                  
+     2   0.66   abbnebraska.com                                             
+     2   0.66   cableone.net                                                
+     1   0.33   co.in                                                       
+     3   0.99   covad.net                                                   
+    99  32.67   cox.net                                                     
+     2   0.66   googlebot.com                                               
+     3   0.99   myvzw.com                                                   
+     1   0.33   nebraska.edu                                                
+     5   1.65   opera-mini.net                                              
+    18   5.94   qwest.net                                                   
+    13   4.29   rr.com                                                      
+     2   0.66   sbcglobal.net                                               
+    30   9.90   unomaha.edu                                                 
+     1   0.33   va.gov                                                      
+    21   6.93   w3.org                                                      
+     1   0.33   websense.net                                                
+    26   8.58   windstream.net                                              
+     1   0.33   yahoo.net                                                   
+     3   0.99   yandex.ru                                                   
+ -----
+   303 entries displayed
+
+
+==============================================================================
+DATES
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    11   3.63   01/Feb/2011                                                 
+     7   2.31   02/Feb/2011                                                 
+    19   6.27   03/Feb/2011                                                 
+    16   5.28   04/Feb/2011                                                 
+     8   2.64   05/Feb/2011                                                 
+     5   1.65   06/Feb/2011                                                 
+    13   4.29   07/Feb/2011                                                 
+    18   5.94   08/Feb/2011                                                 
+    15   4.95   09/Feb/2011                                                 
+    15   4.95   10/Feb/2011                                                 
+    13   4.29   11/Feb/2011                                                 
+     2   0.66   12/Feb/2011                                                 
+     4   1.32   13/Feb/2011                                                 
+    10   3.30   14/Feb/2011                                                 
+    36  11.88   15/Feb/2011                                                 
+    12   3.96   16/Feb/2011                                                 
+     9   2.97   17/Feb/2011                                                 
+     4   1.32   18/Feb/2011                                                 
+    16   5.28   19/Feb/2011                                                 
+    33  10.89   20/Feb/2011                                                 
+    12   3.96   21/Feb/2011                                                 
+     4   1.32   22/Feb/2011                                                 
+     7   2.31   23/Feb/2011                                                 
+     7   2.31   24/Feb/2011                                                 
+     1   0.33   25/Feb/2011                                                 
+     3   0.99   26/Feb/2011                                                 
+     1   0.33   27/Feb/2011                                                 
+     2   0.66   28/Feb/2010                                                 
+ -----
+   303 entries displayed
+
+
+==============================================================================
+HOURS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    12   3.96   00                                                          
+     3   0.99   01                                                          
+     2   0.66   02                                                          
+     3   0.99   03                                                          
+     1   0.33   04                                                          
+     1   0.33   05                                                          
+     5   1.65   07                                                          
+     2   0.66   08                                                          
+     5   1.65   09                                                          
+    19   6.27   10                                                          
+    25   8.25   11                                                          
+    21   6.93   12                                                          
+    17   5.61   13                                                          
+    18   5.94   14                                                          
+    24   7.92   15                                                          
+    19   6.27   16                                                          
+    20   6.60   17                                                          
+    15   4.95   18                                                          
+    20   6.60   19                                                          
+    22   7.26   20                                                          
+    16   5.28   21                                                          
+    20   6.60   22                                                          
+    13   4.29   23                                                          
+ -----
+   303 entries displayed
+
+
+==============================================================================
+STATUS CODES
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+   164  54.13   200                                                         
+     7   2.31   301                                                         
+    46  15.18   304                                                         
+     5   1.65   403                                                         
+    81  26.73   404                                                         
+ -----
+   303 entries displayed
+
+
+==============================================================================
+URLS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+     5   1.65   /                                                           
+     1   0.33   /%7Erfulkerson/a.jpg                                        
+     1   0.33   /1300-1-xhtml/419.html                                      
+     2   0.66   /1300-1-xhtml/images/cv.jpg                                 
+     1   0.33   /1300-2-css/112.html                                        
+     1   0.33   /1300-2-css/foo2.css                                        
+     1   0.33   /1300-4-cgi/08.cgi                                          
+     1   0.33   /1300-4-cgi/10-2.html                                       
+     1   0.33   /1300-4-cgi/10.cgi                                          
+     1   0.33   /2850-1-vanilla/                                            
+     1   0.33   /cihorn/a3/                                                 
+    48  15.84   /favicon.ico                                                
+     1   0.33   /home/~jhperez/a4/images/Home.gif                           
+     1   0.33   /images/bg_topbar.gif                                       
+     5   1.65   /images/images/bg_body.jpg                                  
+     3   0.99   /images/mnu_bottomshadow.gif                                
+     1   0.33   /images/mnu_topshadow.gif                                   
+     3   0.99   /images/style.css                                           
+     1   0.33   /marvelfisher                                               
+     4   1.32   /robots.txt                                                 
+     1   0.33   /~aborzsei/                                                 
+     1   0.33   /~aborzsei/a4/otherpage.html                                
+     1   0.33   /~ahiatt/a4/otherpage.html                                  
+     1   0.33   /~ahiatt/practice.html                                      
+     1   0.33   /~asatterfield/projectammon/images/thumb3.jpg               
+     1   0.33   /~bmmurray/a3/,,/a2/index.html                              
+     1   0.33   /~bmmurray/a5/index.html                                    
+     1   0.33   /~cfhull/a3/                                                
+     2   0.66   /~cfhull/a4/otherpage.html                                  
+     1   0.33   /~chaughawout/a4/                                           
+     1   0.33   /~chaughawout/a4/images/pic_of_me.JPEG                      
+     1   0.33   /~chaughawout/images/sailboats.jpg                          
+     1   0.33   /~chedrick/a5/otherpage.html                                
+     1   0.33   /~cihorn/a3                                                 
+     1   0.33   /~cihorn/a3/public_html/a3/images/599.jpg                   
+     3   0.99   /~dpinkerton/a4/otherpage.html                              
+     1   0.33   /~dpinkerton/a5/                                            
+     1   0.33   /~dpinkerton/a5/my.css                                      
+     1   0.33   /~dpinkerton/a5/otherpage.html                              
+     1   0.33   /~dpollreis/a3/images/Me.jpg                                
+     1   0.33   /~dpollreis/a4/otherpage.html                               
+     1   0.33   /~drgulick/a3                                               
+     1   0.33   /~drgulick/a3/                                              
+     1   0.33   /~drgulick/a4/index.html                                    
+     1   0.33   /~drgulick/a4/otherpage.html                                
+     1   0.33   /~drgulick/a5/images/0521080946.jpg                         
+     1   0.33   /~drgulick/a5/index.html                                    
+     1   0.33   /~drgulick/a5/my.css                                        
+     1   0.33   /~drgulick/a5/otherpage.html                                
+     2   0.66   /~dtwilliams/a3/                                            
+     1   0.33   /~dtwilliams/a4/images/darin.jpg                            
+     1   0.33   /~dtwilliams/a4/otherpage.html                              
+     1   0.33   /~dtwilliams/a5/                                            
+     1   0.33   /~dtwilliams/a5/images/darin.jpg                            
+     1   0.33   /~dtwilliams/a5/index.html                                  
+     1   0.33   /~dtwilliams/a5/my.css                                      
+     3   0.99   /~dtwilliams/a5/otherpage.html                              
+     1   0.33   /~dvanderpool/a3/images/Me_Melissa.jpg                      
+     1   0.33   /~dvanderpool/a5/otherpage.html                             
+     2   0.66   /~elizabejohnson/a3/                                        
+     2   0.66   /~elizabejohnson/a4/otherpage.html                          
+     1   0.33   /~elizabejohnson/a5/otherpage.html                          
+     4   1.32   /~fackermann/a5/images/FredPic.jpg                          
+     1   0.33   /~fackermann/a5/index.html                                  
+     5   1.65   /~fackermann/a5/my.css                                      
+     2   0.66   /~gcnielsen/a3/images/FamilyChristmas.jpg                   
+     1   0.33   /~gcnielsen/a4/images/dorklylogo.png                        
+     2   0.66   /~gcnielsen/a4/otherpage.html                               
+     1   0.33   /~gcnielsen/class.html                                      
+     1   0.33   /~gcnielsen/images/BoPelini.jpg                             
+     2   0.66   /~gfosmer/a4/my.css                                         
+     2   0.66   /~gfosmer/a4/otherpage.html                                 
+     1   0.33   /~gfosmer/a5/images/garret.jpg                              
+     1   0.33   /~handersen/a2/my.css                                       
+     1   0.33   /~handersen/a4/images/Harold.jpg                            
+     1   0.33   /~handersen/a4/otherpage.html                               
+     1   0.33   /~handersen/a5/index.html                                   
+     2   0.66   /~handersen/a5/my.css                                       
+     1   0.33   /~handersen/a5/otherpage.html                               
+     1   0.33   /~igerson/a3                                                
+     1   0.33   /~igerson/a4/images/ian_kuwait.jpg                          
+     1   0.33   /~jblackmore/a2                                             
+     1   0.33   /~jblackmore/a4/my.css                                      
+     1   0.33   /~jblackmore/a4/otherpage.html                              
+     1   0.33   /~jblackmore/a5                                             
+     1   0.33   /~jblackmore/a5/                                            
+     1   0.33   /~jblackmore/a5/my.css                                      
+     1   0.33   /~jblackmore/linx/octal/octal.cgi?name=-36                  
+     1   0.33   /~jblackmore/linx/path2                                     
+     2   0.66   /~jblackmore/project/images/favicon.ico                     
+     1   0.33   /~jblackmore/spring2011/my.css                              
+     1   0.33   /~jblackmore/tehsux.html                                    
+     1   0.33   /~jblackmore/test/my.css                                    
+     2   0.66   /~jdabestani/a4/otherpage.html                              
+     1   0.33   /~jdfitzpatrick/a4/Me.JPG                                   
+     2   0.66   /~jdfitzpatrick/a4/otherpage.html                           
+     1   0.33   /~jdfitzpatrick/a5/                                         
+     1   0.33   /~jdfitzpatrick/a5/my.css                                   
+     3   0.99   /~jdfitzpatrick/game/my.css                                 
+     1   0.33   /~jlnguyen/a3/                                              
+     2   0.66   /~jlnguyen/cgi-bin/prog1.pl                                 
+     1   0.33   /~jlnguyen/prog2.js                                         
+     2   0.66   /~jmills/a4/otherpage.html                                  
+     1   0.33   /~jmills/images/sailboat.gif                                
+     2   0.66   /~jmills/practice.html                                      
+     1   0.33   /~jpredlinger/a3                                            
+     1   0.33   /~jrauscher/                                                
+     3   0.99   /~jrauscher/a4/my.css                                       
+     1   0.33   /~jrauscher/a4/otherpage.html                               
+     1   0.33   /~jrauscher/a5/                                             
+     1   0.33   /~jrauscher/a5/images/jordan.jpg                            
+     1   0.33   /~jrauscher/a5/otherpage.html                               
+     1   0.33   /~jrauscher/a7/                                             
+     1   0.33   /~jrauscher/a7/images/Tball.jpg                             
+     3   0.99   /~jrauscher/a7/my.css                                       
+     1   0.33   /~jwfitzpatrick/a3/images/camping.jpg                       
+     1   0.33   /~jwfitzpatrick/brew/images/title2.jpg                      
+     1   0.33   /~jwfitzpatrick/brew/index.html                             
+     1   0.33   /~kholtz/a3/                                                
+     1   0.33   /~kholtz/a4/otherpage.html                                  
+     1   0.33   /~ksebastian/a3/                                            
+     1   0.33   /~ksebastian/a5/my.css                                      
+     1   0.33   /~lschaller/a4/images/Dolphin.GIF                           
+     5   1.65   /~lschaller/a4/otherpage.html                               
+     1   0.33   /~lschaller/a5/                                             
+     1   0.33   /~lschaller/a5/images/Dolphin.GIF                           
+     1   0.33   /~lschaller/a5/images/Rose.GIF                              
+     3   0.99   /~lschaller/a5/images/bluerose.gif                          
+     3   0.99   /~lschaller/a5/images/wedding.gif                           
+     2   0.66   /~lschaller/a5/otherpage.html                               
+     3   0.99   /~lschaller/a5/pleasework.css                               
+     1   0.33   /~marvelfisher/a3/a3/wedding%20034.jpg                      
+     1   0.33   /~marvelfisher/a4/index.html                                
+     1   0.33   /~marvelfisher/a5/index.html                                
+     1   0.33   /~mblomenberg/                                              
+     1   0.33   /~mblomenberg/a3/                                           
+     1   0.33   /~mblomenberg/a4/index.html                                 
+     2   0.66   /~mblomenberg/a4/otherpage.html                             
+     1   0.33   /~mblomenberg/a5/my.css                                     
+     1   0.33   /~mblomenberg/a5/otherpage.html                             
+     1   0.33   /~mbushnell/a3/                                             
+     1   0.33   /~mbushnell/farmhouse.jpd                                   
+     1   0.33   /~mbushnell/sailboat.jpd                                    
+     1   0.33   /~mcgregory/project/veermusic.html                          
+     1   0.33   /~mneitzke/a5/my.css                                        
+     1   0.33   /~mshallenberger/images/me_and_shelby.jpg                   
+     1   0.33   /~nmarten/a4/images/nick_sakara.jpg                         
+     1   0.33   /~nmarten/a4/my.css                                         
+     1   0.33   /~nmarten/a5/index.html                                     
+     1   0.33   /~nstanard/                                                 
+     1   0.33   /~pinglehart/public_html                                    
+     1   0.33   /~pkenney/project/images/wr.png                             
+     1   0.33   /~ppickett/project/index.html                               
+     1   0.33   /~rbeasley/a3/                                              
+     1   0.33   /~rbeasley/a4/index.html                                    
+     1   0.33   /~rbeasley/a5/images/myface.jpg                             
+     2   0.66   /~rbeasley/a5/otherpage.html                                
+     2   0.66   /~restewart/a4/                                             
+     1   0.33   /~restewart/a4/images/FamilyPhoto.jpg                       
+     1   0.33   /~restewart/a4/my.css                                       
+     5   1.65   /~restewart/a4/otherpage.html                               
+     1   0.33   /~restewart/a5/otherpage.html                               
+     1   0.33   /~rfulkerson/grades/                                        
+     3   0.99   /~rfulkerson/grades/?class=11011300850                      
+     5   1.65   /~rfulkerson/grades/?class=11011400850                      
+     3   0.99   /~rfulkerson/grades/?class=11012850001                      
+     2   0.66   /~rfulkerson/images/cist_sm.jpg                             
+     2   0.66   /~rfulkerson/unoapps.css                                    
+     1   0.33   /~rhammes/a4/otherpage.html                                 
+     1   0.33   /~scarmody/a3/                                              
+     1   0.33   /~shumlicek/a4/images/me.jpg                                
+     2   0.66   /~smholst/a3/my.css                                         
+     1   0.33   /~smholst/a5/my.css                                         
+     1   0.33   /~stacijensen                                               
+     1   0.33   /~surabhisharma/project/images/wave.jpg                     
+     1   0.33   /~tnthomas/a3/                                              
+     1   0.33   /~tnthomas/a4/otherpage.html                                
+     2   0.66   /~whubbard/a4/schedule.html                                 
+ -----
+   303 entries displayed
+
+
+==============================================================================
+BROWSERS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+     3   0.99   Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0                  
+     1   0.33   Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)     
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; MS-RTC LM 8)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+     2   0.66   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 1.1.4322; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; msn OptimizedIE8;ENUS)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; HPNTDF; .NET4.0C)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; eSobiSubscriber 2.0.4.16; .NET4.0C; AskTbFWV5/5.9.1.14019)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1)
+     4   1.32   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 3.0.04506.30; InfoPath.2; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 1.0.3705; .NET CLR 3.0.04506.30; InfoPath.2; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C)
+     6   1.98   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2)
+     6   1.98   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+     3   0.99   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C; BRI/1)
+     3   0.99   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)
+     1   0.33   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)
+     2   0.66   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MDDC; .NET4.0C)
+     3   0.99   Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MDDC; InfoPath.2; .NET4.0C; BRI/1; BO1IE8_v1;ENUS)
+     1   0.33   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.1.16) Gecko/20101130 Firefox/3.5.16
+     2   0.66   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.16) Gecko/20101130 Firefox/3.5.16
+     2   0.66   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-us) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1 Safari/533.17.8
+     2   0.66   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+     1   0.33   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.102 Safari/534.13
+    10   3.30   Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+     1   0.33   Mozilla/5.0 (Windows NT 6.0; rv:2.0b11) Gecko/20100101 Firefox/4.0b11
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.98 Safari/534.13
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.19) Gecko/2010031422 Firefox/3.0.19 ( .NET CLR 3.5.30729)
+     7   2.31   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.19) Gecko/2010031422 Firefox/3.0.19 (.NET CLR 3.5.30729)
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3
+     9   2.97   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3 (.NET CLR 3.5.30729)
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12 (.NET CLR 3.5.30729)
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13
+     4   1.32   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 ( .NET CLR 3.5.30729)
+     4   1.32   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 (.NET CLR 3.5.30729)
+     3   0.99   Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 GTB7.1 (.NET CLR 3.5.30729)
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.67 Safari/534.13
+     5   1.65   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.84 Safari/534.13
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.94 Safari/534.13
+     4   1.32   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.98 Safari/534.13
+     5   1.65   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.11) Gecko/20100701 Firefox/3.5.11 GTB7.1 (.NET CLR 3.5.30729)
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 ( .NET CLR 3.5.30729)
+    10   3.30   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 ( .NET CLR 3.5.30729; .NET4.0C)
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 (.NET CLR 3.5.30729)
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.224 Safari/534.10 ChromePlus/1.5.2.0
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.84 Safari/534.13
+     4   1.32   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.94 Safari/534.13
+    35  11.55   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.98 Safari/534.13
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.45 Safari/534.16
+     1   0.33   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6
+     5   1.65   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10
+    40  13.20   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13
+     2   0.66   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 ( .NET CLR 3.5.30729; .NET4.0C)
+     6   1.98   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 SearchToolbar/1.2
+    10   3.30   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8
+     5   1.65   Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.9) Gecko/20100824 Firefox/3.6.9
+     3   0.99   Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Ubuntu/10.04 Chromium/9.0.597.94 Chrome/9.0.597.94 Safari/534.13
+     1   0.33   Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Ubuntu/10.10 Chromium/9.0.597.94 Chrome/9.0.597.94 Safari/534.13
+     2   0.66   Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)
+     1   0.33   Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+     2   0.66   Mozilla/5.0 (compatible; YandexBot/3.0;  http://yandex.com/bots)
+     1   0.33   Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector;  http://yandex.com/bots)
+     1   0.33   Mozilla/5.0 (compatible; discobot/1.1;  http://discoveryengine.com/discobot.html
+    12   3.96   Opera/9.80 (Windows NT 6.1; U; en) Presto/2.7.62 Version/11.01
+    14   4.62   Opera/9.80 (X11; Linux x86_64; U; en) Presto/2.7.62 Version/11.01
+    14   4.62   W3C_Validator/1.1                                           
+     4   1.32   W3C_Validator/1.2                                           
+ -----
+   303 entries displayed
+
+
+==============================================================================
+REFERRERS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+   139  45.87   N/A                                                         
+    10   3.30   http://blizzard.ist.unomaha.edu/                            
+     2   0.66   http://blizzard.ist.unomaha.edu/1300-1-xhtml/510.html       
+     1   0.33   http://blizzard.ist.unomaha.edu/1300-2-css/                 
+     1   0.33   http://blizzard.ist.unomaha.edu/1300-2-css/219.html         
+     1   0.33   http://blizzard.ist.unomaha.edu/1300-4-cgi/                 
+     1   0.33   http://blizzard.ist.unomaha.edu/images/style.css            
+     1   0.33   http://blizzard.ist.unomaha.edu/~asatterfield/projectammon/art.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~bmmurray/a3/index.html     
+     1   0.33   http://blizzard.ist.unomaha.edu/~chaughawout/               
+     1   0.33   http://blizzard.ist.unomaha.edu/~chaughawout/a4/            
+     1   0.33   http://blizzard.ist.unomaha.edu/~chedrick/a5/               
+     1   0.33   http://blizzard.ist.unomaha.edu/~cihorn/a3/                 
+     2   0.66   http://blizzard.ist.unomaha.edu/~dpinkerton/a5/             
+     1   0.33   http://blizzard.ist.unomaha.edu/~dpinkerton/a5/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~dpollreis/a3/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~drgulick/a4/index.html     
+     1   0.33   http://blizzard.ist.unomaha.edu/~drgulick/a4/otherpage.html 
+     3   0.99   http://blizzard.ist.unomaha.edu/~drgulick/a5/index.html     
+     1   0.33   http://blizzard.ist.unomaha.edu/~drgulick/a5/otherpage.html 
+     1   0.33   http://blizzard.ist.unomaha.edu/~dtwilliams/a4/index.html   
+     4   1.32   http://blizzard.ist.unomaha.edu/~dtwilliams/a5/index.html   
+     2   0.66   http://blizzard.ist.unomaha.edu/~dtwilliams/a5/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~dvanderpool/a3/index.html  
+     1   0.33   http://blizzard.ist.unomaha.edu/~dvanderpool/a5/            
+     8   2.64   http://blizzard.ist.unomaha.edu/~fackermann/a5/index.html   
+     1   0.33   http://blizzard.ist.unomaha.edu/~fackermann/a5/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~gcnielsen/a3/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~gcnielsen/a3/index.html    
+     1   0.33   http://blizzard.ist.unomaha.edu/~gcnielsen/a4/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~gcnielsen/class.html       
+     2   0.66   http://blizzard.ist.unomaha.edu/~gfosmer/a4/otherpage.html  
+     1   0.33   http://blizzard.ist.unomaha.edu/~gfosmer/a5/                
+     1   0.33   http://blizzard.ist.unomaha.edu/~handersen/a2/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~handersen/a4/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~handersen/a5/              
+     3   0.99   http://blizzard.ist.unomaha.edu/~handersen/a5/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~igerson/a4/                
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/a4/             
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/a4/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/a5/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/linx/octal/index.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/menu.html       
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/spring2011/     
+     1   0.33   http://blizzard.ist.unomaha.edu/~jblackmore/test/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~jdabestani/a4/             
+     1   0.33   http://blizzard.ist.unomaha.edu/~jdfitzpatrick/a4/          
+     1   0.33   http://blizzard.ist.unomaha.edu/~jdfitzpatrick/a5/          
+     3   0.99   http://blizzard.ist.unomaha.edu/~jdfitzpatrick/game/        
+     1   0.33   http://blizzard.ist.unomaha.edu/~jlnguyen/class.html        
+     1   0.33   http://blizzard.ist.unomaha.edu/~jlnguyen/jlnguyen_program2.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~jlnguyen/t.html            
+     1   0.33   http://blizzard.ist.unomaha.edu/~jmills/a3/index.html       
+     1   0.33   http://blizzard.ist.unomaha.edu/~jmills/a4/index.html       
+     1   0.33   http://blizzard.ist.unomaha.edu/~jmills/a4/otherpage.html   
+     3   0.99   http://blizzard.ist.unomaha.edu/~jmills/practice.html       
+     4   1.32   http://blizzard.ist.unomaha.edu/~jrauscher/a4/otherpage.html
+     2   0.66   http://blizzard.ist.unomaha.edu/~jrauscher/a5/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~jrauscher/a5/index.html    
+     4   1.32   http://blizzard.ist.unomaha.edu/~jrauscher/a7/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~jrauscher/a7/index.html    
+     1   0.33   http://blizzard.ist.unomaha.edu/~jwfitzpatrick/a3/          
+     1   0.33   http://blizzard.ist.unomaha.edu/~jwfitzpatrick/brew/index.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~ksebastian/a4/             
+     1   0.33   http://blizzard.ist.unomaha.edu/~ksebastian/a5/otherpage.html
+     2   0.66   http://blizzard.ist.unomaha.edu/~lschaller/a4/index.html    
+     9   2.97   http://blizzard.ist.unomaha.edu/~lschaller/a5/              
+     2   0.66   http://blizzard.ist.unomaha.edu/~lschaller/a5/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~marvelfisher/a3/           
+     1   0.33   http://blizzard.ist.unomaha.edu/~marvelfisher/a4/otherpage.html
+     2   0.66   http://blizzard.ist.unomaha.edu/~mblomenberg/a4/index.html  
+     1   0.33   http://blizzard.ist.unomaha.edu/~mblomenberg/a5/            
+     1   0.33   http://blizzard.ist.unomaha.edu/~mblomenberg/a5/index.html  
+     1   0.33   http://blizzard.ist.unomaha.edu/~mbushnell/class.html       
+     1   0.33   http://blizzard.ist.unomaha.edu/~mbushnell/sidepro.html     
+     1   0.33   http://blizzard.ist.unomaha.edu/~mcgregory/project/         
+     1   0.33   http://blizzard.ist.unomaha.edu/~mneitzke/a5/index.html     
+     1   0.33   http://blizzard.ist.unomaha.edu/~mshallenberger/a3/         
+     2   0.66   http://blizzard.ist.unomaha.edu/~nmarten/a4/                
+     2   0.66   http://blizzard.ist.unomaha.edu/~nmarten/a5/otherpage.html  
+     1   0.33   http://blizzard.ist.unomaha.edu/~pkenney/project/schedule.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~ppickett/project/products.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~rbeasley/a4/otherpage.html 
+     2   0.66   http://blizzard.ist.unomaha.edu/~rbeasley/a5/index.html     
+     2   0.66   http://blizzard.ist.unomaha.edu/~restewart/a4/              
+     1   0.33   http://blizzard.ist.unomaha.edu/~restewart/a4/otherpage.html
+     1   0.33   http://blizzard.ist.unomaha.edu/~restewart/a5/              
+     2   0.66   http://blizzard.ist.unomaha.edu/~rfulkerson/1300.cgi        
+     2   0.66   http://blizzard.ist.unomaha.edu/~rfulkerson/apps/           
+     2   0.66   http://blizzard.ist.unomaha.edu/~rfulkerson/apps/index.cgi?action=subapp
+     1   0.33   http://blizzard.ist.unomaha.edu/~shumlicek/a4/              
+     2   0.66   http://blizzard.ist.unomaha.edu/~smholst/a3/                
+     1   0.33   http://blizzard.ist.unomaha.edu/~surabhisharma/project/location.html
+     1   0.33   http://myuno.unomaha.edu/webapps/assessment/do/take/saveAttempt
+     3   0.99   http://myuno.unomaha.edu/webapps/blackboard/content/courseMenu.jsp?course_id=_147588_1&mini=Y
+     5   1.65   http://myuno.unomaha.edu/webapps/blackboard/content/courseMenu.jsp?course_id=_147595_1&mini=Y
+     3   0.99   http://myuno.unomaha.edu/webapps/blackboard/content/courseMenu.jsp?course_id=_150693_1&mini=Y
+     1   0.33   http://squishy.unomaha.edu/                                 
+     1   0.33   http://squishy.unomaha.edu/1300-1-xhtml/                    
+     1   0.33   http://www.facebook.com/l.php?u=http%3A%2F%2Fblizzard.ist.unomaha.edu%2F~mblomenberg%2Fa4%2Fotherpage.html&h=db6a1
+ -----
+   303 entries displayed
+
+
+==============================================================================
+REFERRERS' DOMAINS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+   139  45.87   N/A                                                         
+     1   0.33   facebook.com                                                
+   163  53.80   unomaha.edu                                                 
+ -----
+   303 entries displayed
+
+
+Total bytes served    = 2567666
+
+==============================================================================
+SOME OF THE EXTRA CREDIT STARTS HERE
+==============================================================================
+
+
+
+==============================================================================
+EXTRA CREDIT : BROWSER TYPES
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    44  14.52   MSIE                                                        
+   212  69.97   Netscape                                                    
+    47  15.51   Other                                                       
+ -----
+   303 entries displayed
+
+
+==============================================================================
+EXTRA CREDIT : OPERATING SYSTEMS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    18   5.94   Linux                                                       
+    18   5.94   Macintosh                                                   
+    28   9.24   Other                                                       
+   239  78.88   Windows                                                     
+ -----
+   303 entries displayed
+
+
+==============================================================================
+EXTRA CREDIT : FILE TYPES
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    57  18.81   Images (JPG,JPEG,GIF)                                       
+   165  54.46   Other                                                       
+    81  26.73   Pages (PHP,HTM,HTML)                                        
+ -----
+   303 entries displayed
+
+
+==============================================================================
+EXTRA CREDIT : DIRECTORIES
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+    59  19.47   /                                                           
+     1   0.33   /%7Erfulkerson                                              
+     1   0.33   /1300-1-xhtml                                               
+     2   0.66   /1300-1-xhtml/images                                        
+     2   0.66   /1300-2-css                                                 
+     3   0.99   /1300-4-cgi                                                 
+     1   0.33   /2850-1-vanilla                                             
+     1   0.33   /cihorn/a3                                                  
+     1   0.33   /home/~jhperez/a4/images                                    
+     8   2.64   /images                                                     
+     5   1.65   /images/images                                              
+     1   0.33   /~aborzsei                                                  
+     1   0.33   /~aborzsei/a4                                               
+     1   0.33   /~ahiatt                                                    
+     1   0.33   /~ahiatt/a4                                                 
+     1   0.33   /~asatterfield/projectammon/images                          
+     1   0.33   /~bmmurray/a3/,,/a2                                         
+     1   0.33   /~bmmurray/a5                                               
+     1   0.33   /~cfhull/a3                                                 
+     2   0.66   /~cfhull/a4                                                 
+     1   0.33   /~chaughawout/a4                                            
+     1   0.33   /~chaughawout/a4/images                                     
+     1   0.33   /~chaughawout/images                                        
+     1   0.33   /~chedrick/a5                                               
+     1   0.33   /~cihorn                                                    
+     1   0.33   /~cihorn/a3/public_html/a3/images                           
+     3   0.99   /~dpinkerton/a4                                             
+     3   0.99   /~dpinkerton/a5                                             
+     1   0.33   /~dpollreis/a3/images                                       
+     1   0.33   /~dpollreis/a4                                              
+     1   0.33   /~drgulick                                                  
+     1   0.33   /~drgulick/a3                                               
+     2   0.66   /~drgulick/a4                                               
+     3   0.99   /~drgulick/a5                                               
+     1   0.33   /~drgulick/a5/images                                        
+     2   0.66   /~dtwilliams/a3                                             
+     1   0.33   /~dtwilliams/a4                                             
+     1   0.33   /~dtwilliams/a4/images                                      
+     6   1.98   /~dtwilliams/a5                                             
+     1   0.33   /~dtwilliams/a5/images                                      
+     1   0.33   /~dvanderpool/a3/images                                     
+     1   0.33   /~dvanderpool/a5                                            
+     2   0.66   /~elizabejohnson/a3                                         
+     2   0.66   /~elizabejohnson/a4                                         
+     1   0.33   /~elizabejohnson/a5                                         
+     6   1.98   /~fackermann/a5                                             
+     4   1.32   /~fackermann/a5/images                                      
+     1   0.33   /~gcnielsen                                                 
+     2   0.66   /~gcnielsen/a3/images                                       
+     2   0.66   /~gcnielsen/a4                                              
+     1   0.33   /~gcnielsen/a4/images                                       
+     1   0.33   /~gcnielsen/images                                          
+     4   1.32   /~gfosmer/a4                                                
+     1   0.33   /~gfosmer/a5/images                                         
+     1   0.33   /~handersen/a2                                              
+     1   0.33   /~handersen/a4                                              
+     1   0.33   /~handersen/a4/images                                       
+     4   1.32   /~handersen/a5                                              
+     1   0.33   /~igerson                                                   
+     1   0.33   /~igerson/a4/images                                         
+     3   0.99   /~jblackmore                                                
+     2   0.66   /~jblackmore/a4                                             
+     2   0.66   /~jblackmore/a5                                             
+     1   0.33   /~jblackmore/linx                                           
+     1   0.33   /~jblackmore/linx/octal                                     
+     2   0.66   /~jblackmore/project/images                                 
+     1   0.33   /~jblackmore/spring2011                                     
+     1   0.33   /~jblackmore/test                                           
+     2   0.66   /~jdabestani/a4                                             
+     3   0.99   /~jdfitzpatrick/a4                                          
+     2   0.66   /~jdfitzpatrick/a5                                          
+     3   0.99   /~jdfitzpatrick/game                                        
+     1   0.33   /~jlnguyen                                                  
+     1   0.33   /~jlnguyen/a3                                               
+     2   0.66   /~jlnguyen/cgi-bin                                          
+     2   0.66   /~jmills                                                    
+     2   0.66   /~jmills/a4                                                 
+     1   0.33   /~jmills/images                                             
+     1   0.33   /~jpredlinger                                               
+     1   0.33   /~jrauscher                                                 
+     4   1.32   /~jrauscher/a4                                              
+     2   0.66   /~jrauscher/a5                                              
+     1   0.33   /~jrauscher/a5/images                                       
+     4   1.32   /~jrauscher/a7                                              
+     1   0.33   /~jrauscher/a7/images                                       
+     1   0.33   /~jwfitzpatrick/a3/images                                   
+     1   0.33   /~jwfitzpatrick/brew                                        
+     1   0.33   /~jwfitzpatrick/brew/images                                 
+     1   0.33   /~kholtz/a3                                                 
+     1   0.33   /~kholtz/a4                                                 
+     1   0.33   /~ksebastian/a3                                             
+     1   0.33   /~ksebastian/a5                                             
+     5   1.65   /~lschaller/a4                                              
+     1   0.33   /~lschaller/a4/images                                       
+     6   1.98   /~lschaller/a5                                              
+     8   2.64   /~lschaller/a5/images                                       
+     1   0.33   /~marvelfisher/a3/a3                                        
+     1   0.33   /~marvelfisher/a4                                           
+     1   0.33   /~marvelfisher/a5                                           
+     1   0.33   /~mblomenberg                                               
+     1   0.33   /~mblomenberg/a3                                            
+     3   0.99   /~mblomenberg/a4                                            
+     2   0.66   /~mblomenberg/a5                                            
+     2   0.66   /~mbushnell                                                 
+     1   0.33   /~mbushnell/a3                                              
+     1   0.33   /~mcgregory/project                                         
+     1   0.33   /~mneitzke/a5                                               
+     1   0.33   /~mshallenberger/images                                     
+     1   0.33   /~nmarten/a4                                                
+     1   0.33   /~nmarten/a4/images                                         
+     1   0.33   /~nmarten/a5                                                
+     1   0.33   /~nstanard                                                  
+     1   0.33   /~pinglehart                                                
+     1   0.33   /~pkenney/project/images                                    
+     1   0.33   /~ppickett/project                                          
+     1   0.33   /~rbeasley/a3                                               
+     1   0.33   /~rbeasley/a4                                               
+     2   0.66   /~rbeasley/a5                                               
+     1   0.33   /~rbeasley/a5/images                                        
+     8   2.64   /~restewart/a4                                              
+     1   0.33   /~restewart/a4/images                                       
+     1   0.33   /~restewart/a5                                              
+     2   0.66   /~rfulkerson                                                
+    12   3.96   /~rfulkerson/grades                                         
+     2   0.66   /~rfulkerson/images                                         
+     1   0.33   /~rhammes/a4                                                
+     1   0.33   /~scarmody/a3                                               
+     1   0.33   /~shumlicek/a4/images                                       
+     2   0.66   /~smholst/a3                                                
+     1   0.33   /~smholst/a5                                                
+     1   0.33   /~surabhisharma/project/images                              
+     1   0.33   /~tnthomas/a3                                               
+     1   0.33   /~tnthomas/a4                                               
+     2   0.66   /~whubbard/a4                                               
+ -----
+   303 entries displayed
+
+
+==============================================================================
+EXTRA CREDIT : METHODS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+   303 100.00   GET                                                         
+ -----
+   303 entries displayed
+
+
+==============================================================================
+EXTRA CREDIT : HTTP VERSIONS
+==============================================================================
+
+  Hits  %-age   Resource                                                    
+  ----  -----   --------                                                    
+     1   0.33   HTTP/1.0                                                    
+   302  99.67   HTTP/1.1                                                    
+ -----
+   303 entries displayed
